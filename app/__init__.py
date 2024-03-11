@@ -1,6 +1,5 @@
 from flask import Flask, redirect, url_for, session, request, render_template
 from flask_dance.contrib.github import make_github_blueprint, github
-from app import routes
 from flask_dance.consumer import oauth_authorized
 
 from .store.users import UsersStore
